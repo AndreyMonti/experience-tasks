@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #483D8b;
+    position: fixed;
+    top:0;
+}
+#logo_senai{
+    width: 400px;
+    height: auto;
+    float: left;
+    scale: 70%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding: 16px;
+}
+
+li a{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+nav{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#muraltarefas{
+    padding: 60px;
+    text-align: center;
+    color: black;
+}
+#imgprojeto{
+    display: block;
+    margin: auto;
+    width: 300px; 
+    height: auto; 
+}
+.mural {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bloco {
+    width: 270px;
+    height: 170px;
+    background-color:rgb(255, 245, 158);
+    margin: 10px;
+}
+
+h3{
+    margin: 17px;
+    margin-top: 40px;
+}
+
+p{
+    margin: 17px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.mural{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: auto;
+    width: 80%; 
+    margin: 0 auto;
+}
